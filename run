@@ -1,0 +1,3 @@
+docker run -it \
+-v ./pokerogue:/home/node/pokerogue \
+pokerogue:dev
