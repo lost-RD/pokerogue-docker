@@ -1,1 +1,1 @@
-docker build -t pokerogue:dev .
+docker build --build-arg TOKEN=${TOKEN} -t pokerogue:dev .

@@ -1,3 +1,4 @@
 docker run -it \
 -v ./pokerogue:/home/node/pokerogue \
+-v ./inject_eruda.sh:/home/node/inject_eruda.sh \
 pokerogue:dev
